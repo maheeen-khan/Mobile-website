@@ -5,7 +5,7 @@
 }
 .main{
     background-image: url(./images/banner.png);
-    height: 100vh;
+  
     width: 100%;
 }
 .main > .navbar{
@@ -13,9 +13,10 @@
 }
 .content{
     background-color: rgb(131, 39, 0);
-    width: 30%;
+    width: 40%;
     color: white;
     text-align: justify;
+    padding: 2%;
 }
 .btn1{
     padding:1% 4%;
@@ -46,10 +47,10 @@
     font-size: 19px;
 }
 .front-heading-1{
-    font-size: 45px;
+    font-size: 40px;
 }
 .front-heading-2{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bolder;
    margin-bottom: 3%;
 }
@@ -65,19 +66,25 @@
 }
 .img-box{
     width: 50%;
-    height:68.5vh;
+    height:68vh;
     background-color: #F77A18;
     padding: 3%;
     
 }
 .img-box > img{
-    height:78vh;
+    height:73vh;
+    width: 120%;
 }
 .info{
-    width: 20%;
+    min-width: 320px;
+    max-width: 20%;
     background-color: white;
     position: absolute;
-    bottom: 50%;
-    left: 55%;
+    bottom: 43%;
+    left: 50%;
     padding:  1% 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
