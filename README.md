@@ -1,1 +1,2 @@
-# Create Mobile Website using HTML, CSS and Bootstrap.
+# Mobile website
+ Create Mobile Website using HTML, CSS and Bootstrap.
