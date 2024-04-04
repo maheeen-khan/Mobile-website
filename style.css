@@ -13,8 +13,15 @@
     background-image: url(./images/banner.png);
 }
 
+.Question{
+    background: transparent !important;
+    color: #000000 !important;
+}
+.navbar-brand > img{
+    width: 160px;
+    height: 40px;
+}
 .content {
-    background-color: rgb(131, 39, 0);
     width: 40%;
     color: white;
     text-align: justify;
@@ -24,7 +31,8 @@
 .btn1 {
     padding: 1% 4%;
     border-radius: 20px;
-    color: white;
+    color: white !important;
+    background-color: black !important;
 }
 
 .btn1:hover {
@@ -34,8 +42,7 @@
 }
 
 .front-img {
-    background-color: blue;
-    width: 33%;
+    width: 35%;
     height: 78vh;
     margin-top: 4%;
 }
@@ -102,9 +109,7 @@
     left: 50%;
     padding: 1% 2%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    text-wrap:balance;
 }
 
 /* Third portion */
